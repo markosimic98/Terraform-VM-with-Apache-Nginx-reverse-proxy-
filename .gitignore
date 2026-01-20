@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+
+# OS / VM disk files
+*.vdi
+*.vmdk
+*.box
+*.iso
+
+# Logs
+*.log
+
+# Editor / system files
+*.swp
+*.swo
+.DS_Store
