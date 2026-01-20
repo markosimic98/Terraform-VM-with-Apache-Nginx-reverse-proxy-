@@ -15,7 +15,9 @@ resource "virtualbox_vm" "ubuntu_server" {
   cpus   = 2
   memory = "4096 mib"
 
+
   network_adapter {
-    type = "nat"
+    type           = "bridged"
+    host_interface = "enp42s0"
   }
 }
